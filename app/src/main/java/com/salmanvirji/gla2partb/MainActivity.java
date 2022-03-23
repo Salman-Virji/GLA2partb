@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
-import android.widget.Toolbar;
+import android.support.v7.widget.Toolbar;
 
 import com.google.android.material.tabs.TabLayout;
 
@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         // ... Code inside onCreate() method
         super.onCreate(savedInstanceState);
-        toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar =
+                findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
         // Create an instance of the tab layout from the view.
         TabLayout tabLayout = findViewById(R.id.tab_layout);
@@ -49,5 +50,4 @@ public class MainActivity extends AppCompatActivity {
                                                        }
                                                    });
     }
-
 }
