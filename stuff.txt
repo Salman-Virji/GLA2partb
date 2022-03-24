@@ -1,0 +1,5 @@
+glapart2
+
+https://stackoverflow.com/questions/60957500/this-project-uses-androidx-dependencies-but-the-android-useandroidx-property
+https://stackoverflow.com/questions/60684730/error-execution-failed-for-task-appmergedebugjavaresource
+https://stackoverflow.com/questions/51131172/fragmentstatepageradapter-is-deprecated-from-api-27
