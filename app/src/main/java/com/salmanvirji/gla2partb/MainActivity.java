@@ -1,10 +1,10 @@
 package com.salmanvirji.gla2partb;
 
+import android.os.Bundle;
+import android.widget.Toolbar;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
-
-import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 
 import com.google.android.material.tabs.TabLayout;
 
